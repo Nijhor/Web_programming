@@ -1,0 +1,43 @@
+body{
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.course_info{
+    background-color: rgb(129, 174, 204);
+}
+.first_table tr th{
+    width: 100vw;
+    border: 1px solid black;
+    border-collapse: collapse;
+    ;
+}
+.first_table tr td {
+    border: 1px solid;
+    width: 100vw;
+}
+.course_obj{
+    background-color:rgb(129, 174, 204) ;
+}
+.course_out{
+    background-color: rgb(129, 174, 204);
+}
+.sec_table tr th{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+.sec_table tr td{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.head table  {
+    padding-left: 30%;
+}
