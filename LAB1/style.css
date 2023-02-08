@@ -41,3 +41,87 @@ body{
 .head table  {
     padding-left: 30%;
 }
+.third_table h3{
+    background-color: rgb(129, 174, 204);
+}
+.third_table table tr th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.third_table table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.fourt_table h3{
+    background-color: rgb(129, 174, 204);
+}
+.fourt_table table tr th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.fourt_table table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.mini_project h3{
+    background-color: rgb(129, 174, 204);
+}
+.mini_project table tr th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.mini_project table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.assesment h3{
+    background-color: rgb(129, 174, 204);
+}
+.assesment table tr th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.assesment table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.matrial h3{
+    background-color: rgb(129, 174, 204);
+}
+.matrial ul li{
+    list-style-type: decimal;
+}
+.matrial ul{
+    padding-left: 35px;
+}
+.grade h3{
+    background-color: rgb(129, 174, 204);
+}
+.grade table tr th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.grade table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.exam h3{
+    background-color: rgb(129, 174, 204);
+}
+.exam table tr th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.exam table tr td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.COC h3{
+    background-color: rgb(129, 174, 204);
+}
+.COC ul{
+    padding-left: 15px;
+}
