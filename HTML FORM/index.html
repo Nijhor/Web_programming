@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style>
+        .from{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1>Teaching Assistant Form</h1>
+    </div>
+    <div class="from">
+        <form action="google.com" method="post">
+            <table style="border: 1px solid;" >
+                <tr>
+                    <th >
+                        <label for="fname">Name:</label>
+                    </th>
+                    <th>
+                        <input type="text" id="fname" name="fname">
+                    </th>
+                    <th>
+                        <label for="fid">Student ID:</label>
+                    </th>
+                    <th>
+                        <input type="text" id="fid" name="fid" maxlength="13">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="credit">Credits Completed:</label>
+                    </th>
+                    <th>
+                        <input type="text" id="credit" name="credit">
+                    </th>
+                    <th>
+                        <label for="cgpa">CGPA:</label>
+                    </th>
+                    <th>
+                        <input type="text" id="cgpa" name="cgpa" maxlength="4">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="sem">Semester:</label>
+                    </th>
+                    <th>
+                        <input type="text" id="sem" name="sem">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                       <label for="dept">Department:</label> 
+                    </th>
+                    <th>
+                        <select name="dept" id="dept">
+                            <option value="CSE">CSE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="BBA">BBA</option>
+                            <option value="MPS">MPS</option>
+                        </select>
+                    </th>
+                    <th>
+                        UTA: <input type="radio" name="TA" checked>
+                    </th>
+                    <th>
+                        GTA: <input type="radio" name="TA">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="mail">Email:</label>
+                    </th>
+                    <th>
+                        <input type="text" id="mail" name="mail">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="address">Address:</label>
+                    </th>
+                    <th>
+                        <textarea name="address" id="address" cols="21" rows="3"></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="Phone">Phone Number:</label>
+                    </th>
+                    <th>
+                        <input type="text" name="Phone" id="Phone">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="ques">Were you a TA before?</label>
+                    </th>
+                    <th>
+                        YES: <input type="checkbox" name="ques">
+                        NO: <input type="checkbox" name="ques">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Why you are a good <br> candidate for this post?
+                    </th>
+                    <th colspan="3">
+                        <textarea name="desc" id="desc" cols="64" rows="4"></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="4"><h4><u>Please upload the following files</u></h4></th>
+                </tr>
+                <tr>
+                    <th>
+                        Your Formal Photo:
+                    </th>
+                    <th>
+                        <input type="file" name="photo" id="photo">
+                    </th>
+                    <th>
+                        CV:
+                    </th>
+                    <th>
+                        <input type="file" name="cv" id="cv">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Cover Letter:
+                    </th>
+                    <th>
+                        <input type="file" name="cl" id="cl">
+                    </th>
+                    <th>
+                        Grade Report:
+                    </th>
+                    <th>
+                        <input type="file" name="gr" id="gr">
+                    </th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>
+                        <input type="button" value="Submit">
+                    </th>
+                    <th>
+                        <input type="reset" value="Reset">
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
