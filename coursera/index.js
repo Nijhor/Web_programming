@@ -68,8 +68,108 @@ switch(day){
 }
 console.log("count complete");*/
 
-var i=5;
+/*var i=5;
 while(i>0){
     console.log(i);
     i--;
+}*/
+//function
+
+/*function addtownum(a,b){
+    var c = a+b;
+    console.log(c);
 }
+addtownum(10,20);*/
+
+//storing data in arrays
+
+//var train = ["Wheat","Rice","Flower","Curry"];
+//console.log(train[0]);
+
+/*function letterFinder(word,match){
+    for(var i=0; i<word.length;i++){
+        if(word[i]==match){
+            console.log("Found the",match,'at',i);
+        }
+        else{
+            console.log('No match found at',i);
+        }
+    }
+}
+
+letterFinder("test","t");*/
+
+//create an object var user = {}; 
+//creating an object with properties and their values
+/*var assistantManager = {
+    rangeTilesPerTurn: 3,
+    socialSkills: 30,
+    streetSmarts: 30,
+    health: 40,
+    specialAbility: "young and ambitious",
+    greeting: "Let's make some money"
+}*/
+
+//console.log(Math.ceil(3.1647));
+
+//Math.random method -- it generates decimal number in between 0 to 0.99
+
+//var decimal = Math.random();
+//console.log(decimal);
+
+// to add two strings
+/*var greet = 'Hello';
+var user = 'Lisa';
+
+console.log(greet ,user);
+console.log(greet.concat(user) );*/
+
+/*To read each individual character at a specific index in a string, starting from zero, I can use the charAt() method:  
+
+The concat() method joins two strings:  
+
+The indexOf returns the location of the first position that matches a character: 
+
+The lastIndexOf finds the last match, otherwise it works the same as indexOf.
+
+The split method chops up the string into an array of sub-strings:
+
+greet.toUpperCase(); // "HELLO, "
+greet.toLowerCase(); // "hello, " */
+
+
+/*var clothes = [];
+clothes.push('shirt','pant','payjama','punjabi','undy');
+
+clothes.pop(-1);
+clothes.push('panty');
+console.log(clothes[2]);
+
+var favCar = {};
+favCar.color = 'pink';
+favCar.covertible = true;
+
+console.log(favCar);*/
+
+/*var car = {};
+
+car.color = "red";
+
+//add a method to the car object so that it can be called as car.turnkey()
+car.turnKey = function() { 
+  console.log('engine running'); 
+}
+
+car.turnKey();*/
+
+//typeof() --> return the type of the input variable
+
+var result = "Hello".indexOf('l');
+console.log(result);
+
+var dog = {
+    color: "brown",
+    height: 30,
+    length: 60
+};
+dog["type"] = "corgi"; //to add a property in object
