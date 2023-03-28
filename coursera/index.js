@@ -164,7 +164,7 @@ car.turnKey();*/
 
 //typeof() --> return the type of the input variable
 
-var result = "Hello".indexOf('l');
+/*var result = "Hello".indexOf('l');
 console.log(result);
 
 var dog = {
@@ -172,4 +172,87 @@ var dog = {
     height: 30,
     length: 60
 };
-dog["type"] = "corgi"; //to add a property in object
+dog["type"] = "corgi"; //to add a property in object*/
+
+//error handling....try catch block
+
+/*try{
+    console.log(c+d);
+}catch(err){
+    console.log("Nothing Happen");
+}
+console.log("Nothing Happen");
+
+
+try{
+    throw new Error();
+}catch(err){
+    console.log(err)
+}
+console.log("Nothing Happen");*/
+
+/*function addTwoNums(a, b) {
+    try {
+        console.log(a + b);
+    }catch(err){
+        console.log(err);
+    }
+}
+
+addTwoNums(5, '5');*/
+
+/*function letterFinder(word, match) {
+    var condition1 = typeof (word) == 'string' && word.length >= 2;
+    var condition2 = typeof (match) == 'string' && match.length == 1;
+    if (condition1 && condition2) {
+        for (i = 0; i < word.length; i++) {
+            if (word[i] == match) {
+                //if the current character at position i in the word is equal to the match
+                console.log('Found the', match, 'at', i)
+            } else {
+                console.log('---No match found at', i)
+            }
+        }
+    }
+    else{
+        console.log("Please pass correct arguments to the function")
+    }
+}
+letterFinder('cat','c')*/
+
+/*var result = null;
+console.log(result);
+
+try {
+    console.log('Hello');
+  } catch(err) {
+    console.log('Goodbye');
+  }
+
+
+  var x;
+
+  if(x === null) {
+    console.log("null");
+  } else if(x === undefined) {
+    console.log("undefined");
+  } else {
+    console.log("ok");
+  }
+
+  throw new Error();
+  console.log("Hello");*/
+
+  try {
+    throw new Error();
+    console.log('Hello');
+  } catch(err) {
+    console.log('Goodbye');
+  }
+
+
+  try {
+    Number(5).toPrecision(300)
+    } catch(e) {
+    console.log("There was an error")
+    }

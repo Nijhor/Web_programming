@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Calculator</h1>
+	<form>
+		<input type="text" id="result" name="result" readonly>
+		<table>
+			<tr>
+				<td><input id="but" type="button" value="7" ></td>
+				<td><input id="but" type="button" value="8" ></td>
+				<td><input id="but" type="button" value="9" ></td>
+				<td><input id="but" type="button" value="/" ></td>
+			</tr>
+			<tr>
+				<td><input id="but" type="button" value="4" ></td>
+				<td><input id="but" type="button" value="5" ></td>
+				<td><input id="but" type="button" value="6" ></td>
+				<td><input id="but" type="button" value="*" ></td>
+			</tr>
+			<tr>
+				<td><input id="but" type="button" value="1" ></td>
+				<td><input id="but" type="button" value="2" ></td>
+				<td><input id="but" type="button" value="3" ></td>
+				<td><input id="but" type="button" value="-" ></td>
+			</tr>
+			<tr>
+				<td><input id="but" type="button" value="0"></td>
+				<td><input id="but" type="button" value="."></td>
+				<td><input id="but" type="button" value="C"></td>
+				<td><input id="but" type="button" value="+"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><input id="but" type="button" value="=" onclick="calculateResult()"></td>
+			</tr>
+            <script src="script.js"></script>
+		</table>
+	</form>
+</body>
+</html>
